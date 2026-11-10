@@ -5,11 +5,14 @@ language: csharp
 pattern: sliding-window
 difficulty: medium
 tags: [sliding-window, sorting, offline-queries, counting]
+status: worked-example
 ---
 
 # 2747 Count Zero Request Servers (C#)
 
 Pattern: [[Sliding Window]] · Builds on: [[2418 Sort the People - CSharp]], [[219 Contains Duplicate II - CSharp]], [[904 Fruit Into Baskets - CSharp]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 

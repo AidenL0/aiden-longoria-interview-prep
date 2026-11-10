@@ -27,7 +27,7 @@ Prepping for the wrong format wastes weeks. Grinding puzzle problems helps less 
 ### 2. Code reading: find the bug, then add a feature
 
 - **What it looks like:** a small existing program (a handful of classes) with a short document describing them. Fix one or more bugs, then add a feature.
-- **The kind of bug to expect:** small logic slips, such as a value that should change on every pass of a loop being reset instead.
+- **The kind of bug to expect:** small logic slips rather than crashes. The usual suspects are listed in [[Reading an Unfamiliar Codebase]].
 - **How it's graded:** whether the tests pass, and often how readable and well-placed your change is.
 - **How to prepare:** [[Reading an Unfamiliar Codebase]]. Small exercises that give you a class with stubs and tests (like Exercism) are close practice.
 

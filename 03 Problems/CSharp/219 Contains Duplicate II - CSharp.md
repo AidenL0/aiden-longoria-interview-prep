@@ -5,11 +5,14 @@ language: csharp
 pattern: sliding-window
 difficulty: easy
 tags: [sliding-window, hashset]
+status: worked-example
 ---
 
 # 219 Contains Duplicate II (C#)
 
 Pattern: [[Sliding Window]] · Before this: [[217 Contains Duplicate - CSharp]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 

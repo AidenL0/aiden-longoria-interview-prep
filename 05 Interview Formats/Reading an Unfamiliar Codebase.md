@@ -22,7 +22,7 @@ It's easy to spend most of the time on these without noticing. Budget for them o
 
 ## The method
 
-Before writing any code (about 5–10 minutes of a 30-minute task):
+Before writing any code (spend roughly the first fifth of your time here):
 
 1. **Map the classes.** One line per class: what it holds (its fields) → what it does (its methods) → who uses it. Draw arrows for "creates" and "calls."
 2. **Find the entry point:** the method the task or the tests call. Follow one call all the way through.
@@ -35,7 +35,7 @@ Before writing any code (about 5–10 minutes of a 30-minute task):
 ## The usual suspects for bugs
 
 - Off by one in a loop bound (`<` versus `<=`).
-- A variable declared or reset **inside** a loop when it should keep its value between passes. If the output repeats, find the value that should be moving forward and check every line that assigns it.
+- A variable declared or reset **inside** a loop when it should keep its value between passes.
 - A missing `return`, or a `return` that ends a loop on its first pass.
 - A `null` that isn't checked.
 - Integer division where a decimal result was needed.
@@ -47,6 +47,6 @@ Most C# tests use NUnit; Python uses `unittest` or `pytest`. A failure names the
 
 ## Practice
 
-- Ask a friend (or an AI tool) to write 4–5 small classes for one feature, with a planted bug and a feature request, sized for 30 minutes. Work it timed, then review where the time went.
+- Ask a friend (or an AI tool) to write 4–5 small classes for one feature, with a planted bug and a feature request, small enough to finish in under an hour. Work it timed, then review where the time went.
 - Exercism exercises hand you a class with stubs and tests: practice for fitting code into an existing structure.
 - Reading teammates' code in a class project and adding to it is the same skill.

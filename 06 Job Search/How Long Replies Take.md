@@ -19,9 +19,9 @@ Waiting for one reply before applying elsewhere is the most common way a search 
 
 Tech applications from January to November 2026 (data as of 2026-11-10; see [[My Numbers]]):
 
-- **Median time to the first reply: 11 days.** Half of the replies came within 11 days, half took longer.
-- **Range: same day to 48 days.**
-- That's across the 20 applications that got any reply at all, including rejections and assessment invites.
+- **Median time to the first reply: 14 days.** Half of the replies came within 14 days, half took longer.
+- **Range: 1 day to 48 days.**
+- That's across the 19 applications that got a reply and have a known application date, including rejections and assessment invites. Applications whose real date I don't know are left out.
 - **Fewer than half of all applications got any reply.** Silence is the most common outcome.
 
 ## A working rule: 7 weeks of silence
@@ -31,7 +31,7 @@ If an application has had no reply after **7 weeks (49 days)**, I count it as "n
 ## Patterns worth knowing
 
 - **Confirmation emails** usually arrive right after you submit. If none arrives, the application may not have gone through: check the employer's portal for a saved draft.
-- **Automated rejections** can come fast (the one same-day reply in my log was a rejection), especially when a knockout question was answered "no."
+- **Automated rejections** can come fast, especially when a knockout question was answered "no."
 - **Assessment invites** can arrive as soon as the next day (two in my log did), and they come with a deadline. Check it the day the email arrives.
 - **"Application started" or "complete your application" emails** mean it wasn't submitted.
 - **Applications can expire.** Some hourly-job systems close an application after a set time without a hire.

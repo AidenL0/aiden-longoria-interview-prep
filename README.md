@@ -32,3 +32,5 @@ Each problem note follows the same shape: what the problem asks, the pattern and
 ## A note on honesty
 
 Assessment notes describe formats and lessons only. They never reproduce real assessment questions or name the companies behind them.
+
+Problem notes marked **Worked example** are teaching walkthroughs for problems I'm still practicing, not my own solutions.

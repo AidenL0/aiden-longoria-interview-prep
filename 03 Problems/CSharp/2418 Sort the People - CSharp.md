@@ -5,11 +5,14 @@ language: csharp
 pattern: sorting
 difficulty: easy
 tags: [sorting, parallel-arrays]
+status: worked-example
 ---
 
 # 2418 Sort the People (C#)
 
 Pattern: [[Sorting]] · Next: [[2747 Count Zero Request Servers - CSharp]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 

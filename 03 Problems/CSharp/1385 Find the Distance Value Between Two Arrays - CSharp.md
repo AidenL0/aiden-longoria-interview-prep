@@ -5,11 +5,14 @@ language: csharp
 pattern: binary-search
 difficulty: easy
 tags: [arrays, binary-search, sorting]
+status: worked-example
 ---
 
 # 1385 Find the Distance Value Between Two Arrays (C#)
 
 Pattern: [[Binary Search]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 

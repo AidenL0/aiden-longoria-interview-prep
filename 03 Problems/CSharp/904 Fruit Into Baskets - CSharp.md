@@ -5,11 +5,14 @@ language: csharp
 pattern: sliding-window
 difficulty: medium
 tags: [sliding-window, counting, dictionary]
+status: worked-example
 ---
 
 # 904 Fruit Into Baskets (C#)
 
 Pattern: [[Sliding Window]] · Next: [[2747 Count Zero Request Servers - CSharp]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 

@@ -41,15 +41,23 @@ You get an array of integers. One **move** adds 1 to a single element. Return th
 
 ## Trace table
 
-Pass 1 finds the max; pass 2 adds up the gaps.
+The code makes two passes, so there are two tables.
 
-| value | biggest after pass 1 | gap = biggest − value | moves after pass 2 |
-|---|---|---|---|
-| 2 | 2 | 1 | 1 |
-| 1 | 2 | 2 | 3 |
-| 3 | 3 | 0 | 3 |
+**Pass 1: find the max.** `biggest` starts at `nums[0]` = 2.
 
-(Pass 1 ends with biggest = 3; pass 2 uses that final value for every gap.)
+| value | value > biggest? | biggest after this step |
+|---|---|---|
+| 2 | no | 2 |
+| 1 | no | 2 |
+| 3 | yes | 3 |
+
+**Pass 2: add up the gaps.** Every gap uses the final `biggest` = 3. `moves` starts at 0.
+
+| value | gap = 3 − value | moves after this step |
+|---|---|---|
+| 2 | 1 | 1 |
+| 1 | 2 | 3 |
+| 3 | 0 | 3 |
 
 ## Solution
 

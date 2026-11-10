@@ -5,11 +5,14 @@ language: python
 pattern: simulation-and-math
 difficulty: easy
 tags: [arrays, math]
+status: worked-example
 ---
 
 # 268 Missing Number (Python)
 
 Pattern: [[Simulation and Math]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 
