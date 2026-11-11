@@ -5,11 +5,14 @@ language: csharp
 pattern: simulation-and-math
 difficulty: easy
 tags: [simulation, modulo, strings]
+status: solved
 ---
 
 # 412 Fizz Buzz (C#)
 
 Pattern: [[Simulation and Math]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -73,6 +76,10 @@ public class Solution {
 
 - **Time:** O(n).
 - **Space:** O(n) for the output list (output space usually isn't counted as "extra").
+
+## Where I got stuck
+
+- My first version built a list of the numbers 1 to n just to loop over it. The loop variable already counts for you, so the version below skips the extra list.
 
 ## Watch-outs
 

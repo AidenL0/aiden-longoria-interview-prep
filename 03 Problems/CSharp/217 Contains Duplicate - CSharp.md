@@ -5,11 +5,14 @@ language: csharp
 pattern: hashing
 difficulty: easy
 tags: [arrays, hashing, hashset]
+status: solved
 ---
 
 # 217 Contains Duplicate (C#)
 
 Pattern: [[Hashing]] · Next: [[219 Contains Duplicate II - CSharp]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -68,6 +71,11 @@ public class Solution {
 - **Space:** O(n) for the set.
 
 **Other ways:** sort, then compare neighbors (O(n log n) time, O(1) extra space). Or compare every pair (O(n²)): too slow for large inputs.
+
+## Where I got stuck
+
+- I didn't know how to check whether a value was already in a set, so I looked up how `HashSet` works and built a roundabout first version around the fact that adding a duplicate does nothing.
+- Then I learned that `Add` returns `false` for a duplicate, so `if (!seen.Add(x))` is the whole check.
 
 ## Watch-outs
 

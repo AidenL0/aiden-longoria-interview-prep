@@ -5,11 +5,14 @@ language: csharp
 pattern: stack
 difficulty: easy
 tags: [stack, strings]
+status: solved
 ---
 
 # 20 Valid Parentheses (C#)
 
 Other language: [[20 Valid Parentheses - Python]] · Pattern: [[Stack]]
+
+> **Solved.** I solved this one myself. My version pushed each opening bracket and looked up its partner in a dictionary; the version below pushes the closer it expects instead, so the match is one comparison.
 
 ## What it asks
 
@@ -73,6 +76,11 @@ public class Solution {
 
 - **Time:** O(n). Each character is pushed or popped at most once.
 - **Space:** O(n) in the worst case (all openers).
+
+## Where I got stuck
+
+- About 35 minutes with no code help. Short-circuit evaluation was new to me: `stack.Count > 0 && ...` only works because C# checks the left side first and stops as soon as it's false.
+- Calling `Peek()` or `Pop()` on an empty stack throws an error while the program runs, so the count check has to come first.
 
 ## Watch-outs
 

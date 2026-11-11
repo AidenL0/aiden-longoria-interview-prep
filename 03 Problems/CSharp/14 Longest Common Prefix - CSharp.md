@@ -5,11 +5,14 @@ language: csharp
 pattern: arrays-and-indexing
 difficulty: easy
 tags: [strings, vertical-scan, nested-loops]
+status: solved
 ---
 
 # 14 Longest Common Prefix (C#)
 
 Pattern: [[Arrays and Indexing]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -78,6 +81,14 @@ public class Solution {
 
 - **Time:** O(n · m) comparisons for n words and a prefix of length m. Each `prefix += c` also copies the string; for long prefixes, a `StringBuilder` or `strs[0].Substring(0, i)` at the end avoids that.
 - **Space:** O(m) for the prefix.
+
+## Where I got stuck
+
+- I got stuck twice, about 30 minutes each time, and needed explanations to get moving. Both times the cause was one wrong assumption.
+- The first was index order: `strs[j][i]` is always word first, then letter, whichever loop is on the outside.
+- The second was calling `Append` on a string. It compiled and changed nothing, because a string can't be changed in place; `prefix += c` builds a new one.
+- I also first called this a sliding-window problem. It's a vertical scan: compare one column of letters at a time.
+- Rewriting it from a blank page the next day went cleanly.
 
 ## Watch-outs
 

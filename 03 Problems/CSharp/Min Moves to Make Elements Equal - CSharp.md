@@ -5,11 +5,14 @@ language: csharp
 pattern: simulation-and-math
 difficulty: easy
 tags: [math, arrays, max-loop]
+status: solved
 ---
 
 # Min Moves to Make Elements Equal (C#)
 
 Pattern: [[Simulation and Math]]
+
+> **Solved.** I solved this one myself.
 
 A LeetCode daily problem; its number wasn't recorded. (Don't confuse it with 453, where each move raises all but one element.)
 
@@ -86,6 +89,11 @@ public class Solution {
 
 - **Time:** O(n), two passes.
 - **Space:** O(1).
+
+## Where I got stuck
+
+- I solved this one in about 20 minutes. My first version used `.Max()`, which needs `using System.Linq;`. Some online editors don't add that line for you, so I practiced writing the max loop by hand.
+- In that version I started the max at `0`, which breaks if every number is negative. Starting at `nums[0]` works for any input.
 
 ## Watch-outs
 

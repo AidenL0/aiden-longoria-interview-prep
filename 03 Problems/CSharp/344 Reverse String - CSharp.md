@@ -5,11 +5,14 @@ language: csharp
 pattern: two-pointers
 difficulty: easy
 tags: [two-pointers, in-place, arrays]
+status: solved
 ---
 
 # 344 Reverse String (C#)
 
 Pattern: [[Two Pointers]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -75,6 +78,12 @@ s[right] = temp;
 
 - **Time:** O(n). n / 2 swaps.
 - **Space:** O(1).
+
+## Where I got stuck
+
+- My first try used a `StringBuilder`, and the characters never swapped. The problem wants the array itself changed, so two indexes that walk toward each other and swap are all it needs.
+- I also had the stopping condition wrong at first. The loop runs while `left < right`; once they meet, every pair has been swapped.
+- Rewriting it from memory afterward took about 3 minutes.
 
 ## Watch-outs
 

@@ -33,4 +33,10 @@ Each problem note follows the same shape: what the problem asks, the pattern and
 
 Assessment notes describe formats and lessons only. They never reproduce real assessment questions or name the companies behind them.
 
-Problem notes marked **Worked example** are teaching walkthroughs for problems I'm still practicing, not my own solutions.
+Every problem note says how its solution came about:
+
+- **Solved:** I solved it myself. Hints that explained a concept, and syntax lookups, count as mine.
+- **Solved with help:** an AI or a walkthrough supplied a meaningful part of the code.
+- **Worked example:** a teaching walkthrough for a problem I'm still practicing, not my own solution.
+
+Most problem notes also have a **Where I got stuck** section: the wrong first idea, the bug that took longest, the help I needed. The mistakes are often the most useful part.

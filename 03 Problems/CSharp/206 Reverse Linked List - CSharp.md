@@ -5,11 +5,14 @@ language: csharp
 pattern: linked-lists
 difficulty: easy
 tags: [linked-lists, pointers]
+status: solved
 ---
 
 # 206 Reverse Linked List (C#)
 
 Pattern: [[Linked Lists]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -77,6 +80,12 @@ public class Solution {
 
 - **Time:** O(n), one pass.
 - **Space:** O(1), three pointer variables.
+
+## Where I got stuck
+
+- I needed explanations for two things: the loop condition, and an update I'd left out.
+- Order matters in the pointer updates: `previous = current;` has to come before `current = next;`, or you lose your place in the list.
+- LeetCode's `ListNode` class sits in a comment above the solution. Uncommenting it is a compile error, because the class would be defined twice.
 
 ## Watch-outs
 

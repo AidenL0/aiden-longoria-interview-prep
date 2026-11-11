@@ -5,11 +5,14 @@ language: python
 pattern: arrays-and-indexing
 difficulty: easy
 tags: [arrays]
+status: solved
 ---
 
 # 1929 Concatenation of Array (Python)
 
 Pattern: [[Arrays and Indexing]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 

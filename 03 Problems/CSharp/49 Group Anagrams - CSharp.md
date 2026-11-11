@@ -5,11 +5,14 @@ language: csharp
 pattern: hashing
 difficulty: medium
 tags: [hashing, strings, sorting, dictionary]
+status: worked-example
 ---
 
 # 49 Group Anagrams (C#)
 
 Other language: [[49 Group Anagrams - Python]] · Pattern: [[Hashing]]
+
+> **Worked example.** I solved this one in Python ([[49 Group Anagrams - Python]]); this C# version is a translation I haven't written myself yet. Try it yourself before reading on.
 
 ## What it asks
 

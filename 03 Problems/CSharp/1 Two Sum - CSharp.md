@@ -5,11 +5,14 @@ language: csharp
 pattern: hashing
 difficulty: easy
 tags: [arrays, hashing, dictionary]
+status: solved
 ---
 
 # 1 Two Sum (C#)
 
 Other language: [[1 Two Sum - Python]] · Pattern: [[Hashing]] · Syntax help: [[CSharp for Python Programmers]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -73,6 +76,12 @@ public class Solution {
 
 - **Time:** O(n). One pass; dictionary lookups are O(1).
 - **Space:** O(n) for the dictionary.
+
+## Where I got stuck
+
+- My first solve took about an hour and a half, mostly on C# details rather than the idea: a counter declared inside the loop reset on every pass, and a `return` inside the loop ended the method on its first pass.
+- One bug hid behind a passing test. A lookup on the wrong key quietly returned the default `0`, which happened to be the right answer for the first test case.
+- Rewriting it from a blank page a few days later was harder than the first solve. I mixed up what goes in the brackets (the number, as the key) and what gets stored (its index). Rewriting old problems from memory is now a regular part of my practice.
 
 ## Watch-outs
 

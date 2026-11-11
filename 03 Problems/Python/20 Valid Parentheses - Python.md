@@ -5,11 +5,14 @@ language: python
 pattern: stack
 difficulty: easy
 tags: [stack, strings]
+status: solved
 ---
 
 # 20 Valid Parentheses (Python)
 
 Other language: [[20 Valid Parentheses - CSharp]] · Pattern: [[Stack]]
+
+> **Solved.** I solved this one myself. My version pushed each opening bracket and looked up its partner in the dictionary; the version below pushes the closer it expects instead, so the match is one comparison.
 
 ## What it asks
 
@@ -77,6 +80,11 @@ Most textbooks map closers to openers instead. Mapping openers to their expected
 
 - **Time:** O(n). Each character is pushed or popped at most once.
 - **Space:** O(n). A string of only openers fills the stack.
+
+## Where I got stuck
+
+- The idea was mine: a stack, plus a dictionary pairing each opening bracket with its closing partner. I needed help with Python syntax and some implementation details.
+- An AI reviewer first objected to keying the dictionary by the opening bracket, until I explained why it works.
 
 ## Watch-outs
 

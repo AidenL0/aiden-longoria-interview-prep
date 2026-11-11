@@ -5,11 +5,14 @@ language: csharp
 pattern: simulation-and-math
 difficulty: easy
 tags: [geometry, boolean-logic]
+status: solved
 ---
 
 # 836 Rectangle Overlap (C#)
 
 Pattern: [[Simulation and Math]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -74,6 +77,11 @@ public class Solution {
 
 - **Time:** O(1).
 - **Space:** O(1).
+
+## Where I got stuck
+
+- I needed explanations for two things: thinking about edges instead of corners, and one logic flip.
+- I wrote `&&` where I needed `||`. "Any one is enough" means `||`; "all must hold" means `&&`. Saying which one I mean before writing the condition helps.
 
 ## Watch-outs
 

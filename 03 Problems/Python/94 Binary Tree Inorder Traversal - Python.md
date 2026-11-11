@@ -5,11 +5,14 @@ language: python
 pattern: trees
 difficulty: easy
 tags: [trees, stack, traversal]
+status: solved-with-help
 ---
 
 # 94 Binary Tree Inorder Traversal (Python)
 
 Pattern: [[Trees]]
+
+> **Solved with help.** Part of this code came from an AI or a walkthrough; "Where I got stuck" says which part.
 
 ## What it asks
 
@@ -93,6 +96,10 @@ def inorder(node, result):
 
 - **Time:** O(n). Each node is pushed and popped once.
 - **Space:** O(h), where h is the tree's height. That's O(log n) for a balanced tree and O(n) for a tree shaped like a line.
+
+## Where I got stuck
+
+- I understood inorder traversal on paper (left subtree, then the node, then the right subtree), but I didn't know the Python syntax for moving through a tree. Much of this code came from help, so it stays labeled "with help" until I can write it from a blank page.
 
 ## Watch-outs
 

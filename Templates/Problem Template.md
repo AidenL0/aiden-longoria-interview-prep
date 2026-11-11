@@ -5,9 +5,15 @@ language:
 pattern:
 difficulty:
 tags: []
+status:
 ---
 
 # {{title}}
+
+> Set `status` to one of three labels and keep the matching line:
+> - `solved`: **Solved.** I solved this one myself.
+> - `solved-with-help`: **Solved with help.** Part of this code came from an AI or a walkthrough; "Where I got stuck" says which part.
+> - `worked-example`: **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 
@@ -43,6 +49,10 @@ code here, with explicit loops and comments
 
 - **Time:** O(?) because ...
 - **Space:** O(?) because ...
+
+## Where I got stuck
+
+What actually went wrong while solving it: the wrong first idea, the bug that took longest, the help I needed. Leave this section out if nothing did.
 
 ## Watch-outs
 

@@ -5,11 +5,14 @@ language: csharp
 pattern: two-pointers
 difficulty: easy
 tags: [two-pointers, strings]
+status: solved
 ---
 
 # 125 Valid Palindrome (C#)
 
 Pattern: [[Two Pointers]]
+
+> **Solved.** I solved this one myself. My version built a cleaned-up copy of the string first and compared that from both ends; the version below skips the extra characters in place, so it needs no copy.
 
 ## What it asks
 
@@ -78,6 +81,12 @@ public class Solution {
 
 - **Time:** O(n). Each pointer moves across the string at most once.
 - **Space:** O(1). Building a cleaned copy and reversing it also works, but costs O(n) space.
+
+## Where I got stuck
+
+- The idea was easy; the C# was not. I wrote `k.IsLetterOrDigit` first. It's `char.IsLetterOrDigit(k)`: some methods belong to the type (`char`), not to the value.
+- I had to ask whether `foreach (char k in s)` gives the character or its position. It gives the character.
+- Adding characters onto a string one at a time is what `StringBuilder` is for; I looked it up mid-problem.
 
 ## Watch-outs
 

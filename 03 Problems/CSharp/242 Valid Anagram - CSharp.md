@@ -5,11 +5,14 @@ language: csharp
 pattern: hashing
 difficulty: easy
 tags: [hashing, counting, strings]
+status: solved
 ---
 
 # 242 Valid Anagram (C#)
 
 Pattern: [[Hashing]] · Related: [[49 Group Anagrams - CSharp]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -79,6 +82,12 @@ public class Solution {
 - **Space:** O(1). The array is always 26 slots, however long the strings are.
 
 **Unicode follow-up:** for any characters, use `Dictionary<char, int>` with `GetValueOrDefault(c) + 1` instead of the array.
+
+## Where I got stuck
+
+- I knew the approach but got stuck turning it into C#. I asked an AI two syntax questions: how to turn a string into an array of characters, and how to compare two arrays.
+- Later I learned a string can be indexed directly (`s[i]` is a `char`), so no conversion is needed, and that it's `- 'a'`, not `- 0`, that turns a letter into a slot from 0 to 25.
+- In a later rewrite I mixed up `j` (which slot) and `counts[j]` (what's in it).
 
 ## Watch-outs
 

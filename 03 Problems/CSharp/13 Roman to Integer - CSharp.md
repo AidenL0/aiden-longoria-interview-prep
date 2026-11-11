@@ -5,11 +5,14 @@ language: csharp
 pattern: hashing
 difficulty: easy
 tags: [strings, lookup-table, dictionary]
+status: solved
 ---
 
 # 13 Roman to Integer (C#)
 
 Pattern: [[Hashing]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 
@@ -81,6 +84,10 @@ public class Solution {
 
 - **Time:** O(n), one pass.
 - **Space:** O(1). The table always has seven entries.
+
+## Where I got stuck
+
+- No help needed on this one; it took about 20 minutes. My one question was whether to stop the loop a character early (`i < s.Length - 1`) to protect the look-ahead. That would skip the last numeral. The loop has to visit every character; only the look-ahead needs a guard.
 
 ## Watch-outs
 

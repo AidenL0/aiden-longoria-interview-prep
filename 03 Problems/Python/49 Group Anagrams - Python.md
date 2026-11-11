@@ -5,11 +5,14 @@ language: python
 pattern: hashing
 difficulty: medium
 tags: [hashing, strings, sorting, dictionary]
+status: solved
 ---
 
 # 49 Group Anagrams (Python)
 
 Other language: [[49 Group Anagrams - CSharp]] · Pattern: [[Hashing]]
+
+> **Solved.** I solved this one myself.
 
 ## What it asks
 

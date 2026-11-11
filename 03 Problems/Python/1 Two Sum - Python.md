@@ -5,11 +5,14 @@ language: python
 pattern: hashing
 difficulty: easy
 tags: [arrays, hashing, dictionary]
+status: worked-example
 ---
 
 # 1 Two Sum (Python)
 
 Other language: [[1 Two Sum - CSharp]] · Pattern: [[Hashing]]
+
+> **Worked example.** I've solved Two Sum in C# ([[1 Two Sum - CSharp]]); this Python version is a walkthrough I haven't written myself yet. Try it yourself before reading on.
 
 ## What it asks
 

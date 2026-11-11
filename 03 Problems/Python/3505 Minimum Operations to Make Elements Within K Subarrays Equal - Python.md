@@ -5,11 +5,14 @@ language: python
 pattern: dynamic-programming
 difficulty: hard
 tags: [sliding-window, median, dynamic-programming]
+status: worked-example
 ---
 
 # 3505 Minimum Operations to Make Elements Within K Subarrays Equal (Python)
 
 Patterns: [[Sliding Window]], [[Dynamic Programming]]
+
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 A hard problem. It's here because it's built from two ideas you can learn separately: the cost of one window, then choosing the best windows.
 
