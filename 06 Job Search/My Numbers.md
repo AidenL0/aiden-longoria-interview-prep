@@ -1,6 +1,6 @@
 ---
 title: My Numbers
-updated: 2026-11-10
+updated: 2026-11-11
 tags: [job-search, stats]
 ---
 
@@ -8,7 +8,7 @@ tags: [job-search, stats]
 
 Back to [[Start Here]] · Related: [[How Long Replies Take]]
 
-**As of 2026-11-10.** This note is regenerated from my application log each time the vault is published. It covers tech roles only (software, data, IT, systems and similar); part-time non-tech jobs are left out. Applications I started but can't confirm I submitted aren't counted. No companies are named.
+**As of 2026-11-11.** This note is regenerated from my application log each time the vault is published. It covers tech roles only (software, data, IT, systems and similar); part-time non-tech jobs are left out. Applications I started but can't confirm I submitted aren't counted. No companies are named.
 
 ## Why share this
 
@@ -21,10 +21,10 @@ Job-search advice is full of guesses. These are one entry-level candidate's real
 | 2026-01 | 1 |
 | 2026-04 | 13 |
 | 2026-08 | 6 |
-| 2026-09 | 12 |
+| 2026-09 | 13 |
 | 2026-10 | 7 |
 | 2026-11 (so far) | 3 |
-| **Total** | **42** |
+| **Total** | **43** |
 
 April and September were the busiest months. The September run came right after a career fair.
 
@@ -35,9 +35,9 @@ April and September were the busiest months. The September run came right after 
 | Next step | 5 | Got an assessment, interview or offer (even if a rejection came later) |
 | Rejected | 15 | A rejection with no next step |
 | No response | 16 | No reply after 7 weeks |
-| Waiting | 6 | Applied less than 7 weeks ago, no reply yet |
+| Waiting | 7 | Applied less than 7 weeks ago, no reply yet |
 
-- **Reply rate: 48%** (next step plus rejected, out of all applications).
+- **Reply rate: 47%** (next step plus rejected, out of all applications).
 - **Next-step rate: 12%.**
 - **Days to first reply:** median 14, range 1–48, from 19 replies with a known application date.
 
@@ -46,7 +46,7 @@ April and September were the busiest months. The September run came right after 
 | Type | Next step | Rejected | No response | Waiting |
 |---|---|---|---|---|
 | Full-time | 3 | 7 | 11 | 4 |
-| Internship | 1 | 8 | 5 | 1 |
+| Internship | 1 | 8 | 5 | 2 |
 | Part-time | 1 | 0 | 0 | 1 |
 
 ## With and without a connection
@@ -56,16 +56,16 @@ A "connection" means I'd met someone from the company (at a career fair, through
 | | Next step | Rejected | No response | Waiting |
 |---|---|---|---|---|
 | Connection | 2 | 1 | 1 | 0 |
-| No connection | 3 | 14 | 15 | 6 |
+| No connection | 3 | 14 | 15 | 7 |
 
-Small numbers, but the difference is large: 2 of 4 applications with a connection reached a next step, compared with 3 of 38 without one.
+Small numbers, but the difference is large: 2 of 4 applications with a connection reached a next step, compared with 3 of 39 without one.
 
 ## By company size
 
 | Size | Next step | Rejected | No response | Waiting |
 |---|---|---|---|---|
 | Large (over 5,000 people) | 3 | 7 | 3 | 3 |
-| Mid (200–5,000) | 0 | 3 | 2 | 1 |
+| Mid (200–5,000) | 0 | 3 | 2 | 2 |
 | Small (under 200) | 1 | 2 | 3 | 0 |
 | Not recorded | 1 | 3 | 8 | 2 |
 

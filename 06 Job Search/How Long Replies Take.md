@@ -17,7 +17,7 @@ Waiting for one reply before applying elsewhere is the most common way a search 
 
 ## What my own log shows
 
-Tech applications from January to November 2026 (data as of 2026-11-10; see [[My Numbers]]):
+Tech applications from January to November 2026 (data as of 2026-11-11; see [[My Numbers]]):
 
 - **Median time to the first reply: 14 days.** Half of the replies came within 14 days, half took longer.
 - **Range: 1 day to 48 days.**
