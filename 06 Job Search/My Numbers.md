@@ -20,11 +20,11 @@ Job-search advice is full of guesses. These are one entry-level candidate's real
 |---|---|
 | 2026-01 | 1 |
 | 2026-04 | 13 |
-| 2026-08 | 6 |
+| 2026-08 | 4 |
 | 2026-09 | 13 |
 | 2026-10 | 7 |
 | 2026-11 (so far) | 3 |
-| **Total** | **43** |
+| **Total** | **41** |
 
 April and September were the busiest months. The September run came right after a career fair.
 
@@ -34,10 +34,10 @@ April and September were the busiest months. The September run came right after 
 |---|---|---|
 | Next step | 5 | Got an assessment, interview or offer (even if a rejection came later) |
 | Rejected | 15 | A rejection with no next step |
-| No response | 16 | No reply after 7 weeks |
+| No response | 14 | No reply after 7 weeks |
 | Waiting | 7 | Applied less than 7 weeks ago, no reply yet |
 
-- **Reply rate: 47%** (next step plus rejected, out of all applications).
+- **Reply rate: 49%** (next step plus rejected, out of all applications).
 - **Next-step rate: 12%.**
 - **Days to first reply:** median 14, range 1–48, from 19 replies with a known application date.
 
@@ -45,7 +45,7 @@ April and September were the busiest months. The September run came right after 
 
 | Type | Next step | Rejected | No response | Waiting |
 |---|---|---|---|---|
-| Full-time | 3 | 7 | 11 | 4 |
+| Full-time | 3 | 7 | 9 | 4 |
 | Internship | 1 | 8 | 5 | 2 |
 | Part-time | 1 | 0 | 0 | 1 |
 
@@ -56,9 +56,9 @@ A "connection" means I'd met someone from the company (at a career fair, through
 | | Next step | Rejected | No response | Waiting |
 |---|---|---|---|---|
 | Connection | 2 | 1 | 1 | 0 |
-| No connection | 3 | 14 | 15 | 7 |
+| No connection | 3 | 14 | 13 | 7 |
 
-Small numbers, but the difference is large: 2 of 4 applications with a connection reached a next step, compared with 3 of 39 without one.
+Small numbers, but the difference is large: 2 of 4 applications with a connection reached a next step, compared with 3 of 37 without one.
 
 ## By company size
 
@@ -67,7 +67,7 @@ Small numbers, but the difference is large: 2 of 4 applications with a connectio
 | Large (over 5,000 people) | 3 | 7 | 3 | 3 |
 | Mid (200–5,000) | 0 | 3 | 2 | 2 |
 | Small (under 200) | 1 | 2 | 3 | 0 |
-| Not recorded | 1 | 3 | 8 | 2 |
+| Not recorded | 1 | 3 | 6 | 2 |
 
 ## Skills the postings asked for most
 
