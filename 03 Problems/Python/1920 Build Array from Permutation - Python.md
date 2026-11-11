@@ -5,14 +5,14 @@ language: python
 pattern: arrays-and-indexing
 difficulty: easy
 tags: [arrays, indexing]
-status: solved
+status: worked-example
 ---
 
 # 1920 Build Array from Permutation (Python)
 
 Pattern: [[Arrays and Indexing]]
 
-> **Solved.** I solved this one myself.
+> **Worked example.** A teaching walkthrough for a problem I'm still practicing, not my own solution. Try the problem yourself before reading on.
 
 ## What it asks
 
